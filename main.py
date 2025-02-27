@@ -2,7 +2,7 @@ import logging
 import os
 from config import csv_path
 from loggers import handler
-from req_methods import NseData
+from request_methods import NseData
 
 # # Create logger
 logger = logging.getLogger(__name__)

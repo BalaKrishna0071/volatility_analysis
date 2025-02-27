@@ -4,7 +4,7 @@ import os.path
 import pandas as pd
 import requests
 from config import csv_path
-from mail import mailSend
+from gmail_methods import mailSend
 from logger import logger
 from telegram_methods import Telegram
 

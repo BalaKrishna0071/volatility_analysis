@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from req_methods import NseData
+from request_methods import NseData
 
 # FastAPI
 app = FastAPI()
